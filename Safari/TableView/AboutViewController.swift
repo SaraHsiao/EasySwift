@@ -23,14 +23,13 @@ class AboutViewController: UITableViewController {
     
     //MARK: - UITableViewDataSource
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return 2
     }
     
     // 設置 section 中 cell 的數量
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return section == 0 ? 2 : 3
     }
-    
     
     // 設置 section 名稱
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
